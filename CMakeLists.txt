@@ -22,4 +22,4 @@ file(GLOB_RECURSE PROJECT_SOURCE_FILE
 )
 
 add_executable(MySTL ${PROJECT_SOURCE_FILE})
-target_link_libraries(MySTL)
+target_link_libraries(MySTL gtest_main)
